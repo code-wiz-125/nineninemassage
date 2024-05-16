@@ -3,12 +3,12 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .8s ease-out, visibility 0s linear .5s;
+    transition: opacity .7s ease-out, visibility 0s linear .5s;
     z-index: 99999;
  }
 
  #spinner.show {
-     transition: opacity .8s ease-out, visibility 0s linear .0s;
+     transition: opacity .7s ease-out, visibility 0s linear .0s;
      visibility: visible;
      opacity: 1;
  }
@@ -71,16 +71,16 @@
 
 .btn-light-outline-0 {
     border: 0;
-    color: var(--bs-primary) !important;
+    /* color: var(--bs-primary) !important; */
 }
 
 .btn-primary-outline-0:hover {
-    background: var(--bs-secondary) !important;
+    background: var(--bs-blue) !important;
     color: var(--bs-white) !important;
 }
 
 .btn-light-outline-0:hover {
-    background: var(--bs-secondary) !important;
+    background: var(--bs-blue) !important;
     color: var(--bs-white) !important;
 }
 
@@ -92,7 +92,7 @@
 
 .topbar {
     padding: 10px 0;
-    background: var(--bs-secondary) !important;
+    background: var(--bs-lightblue) !important;
 }
 
 /*** Topbar End ***/
@@ -108,7 +108,7 @@
 .navbar .navbar-nav .nav-link.active,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary);
+    color: var(--bs-blue);
 }
 
 .navbar .dropdown-toggle::after {
@@ -135,7 +135,7 @@
 
 .dropdown .dropdown-menu a:hover {
     background: var(--bs-secondary);
-    color: var(--bs-primary);
+    color: var(--bs-blue);
 }
 
 .navbar .nav-item:hover .dropdown-menu {
@@ -188,7 +188,7 @@
 
 .carousel-control-prev,
 .carousel-control-next {
-    opacity: 0;
+    opacity: .3;
 }
 
 .carousel-control-prev .carousel-control-prev-icon,
@@ -211,10 +211,10 @@
 }
 
 #carouselId .carousel-indicators li.active {
-    background: var(--bs-primary);
-    border-color: var(--bs-primary);
-    border-right: 15px solid var(--bs-primary);
-    border-left: 15px solid var(--bs-primary);
+    background: var(--bs-blue);
+    border-color: var(--bs-blue);
+    border-right: 15px solid var(--bs-blue);
+    border-left: 15px solid var(--bs-blue);
 }
 /*** Carousel End ***/
 
@@ -232,7 +232,7 @@
 }
 
 .services .services-item:hover {
-    background: var(--bs-primary) !important;
+    background: var(--bs-blue) !important;
     border-color: var(--bs-secondary) !important;
 }
 
@@ -244,7 +244,7 @@
 
 .services .services-item:hover .services-content a.btn {
     background: var(--bs-white);
-    color: var(--bs-primary) !important;
+    color: var(--bs-blue) !important;
 }
 
 .services .services-item:hover .services-content a.btn:hover {
@@ -315,7 +315,7 @@
     display: block;
     width: 100px;
     height: 100px;
-    background: var(--bs-primary);
+    background: var(--bs-blue);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -370,6 +370,12 @@
     color: #ffffff;
     background: #000000;
     opacity: 1;
+}
+.about-gift:hover {
+    background: blue;
+    transition: 1s;
+    border-radius: 50%;
+    
 }
 /*** Youtube Video End ***/
 /*** About End ***/
@@ -430,7 +436,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: var(--bs-primary);
+    background: var(--bs-blue);
 }
 /*** Counter End ***/
 
@@ -440,7 +446,7 @@
     padding: 0 0 20px 0;
 }
 .gallery .tab-class .nav-item a.active {
-    background: var(--bs-primary) !important;
+    background: var(--bs-blue) !important;
 }
 
 .gallery .tab-class .nav-item a.active span {
@@ -533,7 +539,7 @@
 
 .pricing .owl-carousel.pricing-carousel .owl-nav .owl-prev:hover,
 .pricing .owl-carousel.pricing-carousel .owl-nav .owl-next:hover {
-    color: var(--bs-primary);
+    color: var(--bs-blue);
 }
 /*** Pricing End ***/
 
@@ -545,7 +551,7 @@
 }
 
 .team .team-item .team-text {
-    background: var(--bs-primary);
+    background: var(--bs-blue);
 }
 
 .team .team-item .team-social {
@@ -630,7 +636,7 @@
 
 .testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-next:hover {
-    color: var(--bs-primary);
+    color: var(--bs-blue);
 }
 /*** testimonial end ***/
 
@@ -662,7 +668,7 @@
 
 .footer .footer-item a:hover {
     letter-spacing: 2px;
-    color: var(--bs-primary) !important;
+    color: var(--bs-blue) !important;
 }
 
 /*** Footer End ***/
