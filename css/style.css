@@ -103,6 +103,10 @@
     font-size: 16px;
     transition: .5s;
 }
+.title-text {
+    font-size: 20px;
+    color:lightblue;
+}
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active,
