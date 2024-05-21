@@ -5,8 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-lightblue:#76c5fd;
-  --bs-blue: #E9B200;
+  --bs-lightblue:#90bbda;
+  --bs-blue: #0084ff;
   --bs-indigo: #5e02cd;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -28,6 +28,13 @@
   --bs-danger: #dc3545;
   --bs-light: #f9f8f6;
   --bs-dark: #1c1a1d;
+  /* CUTOM COLORS */
+  --glaucous: #6980A4ff;
+  --powder-blue: #9BBDDEff;
+  --light-blue: #98C3C2ff;
+  --ash-gray: #CBD9D3ff;
+  --avocado: #5B8223ff;
+  
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -2604,7 +2611,7 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #000;
-  background-color: #F9C97F;
+  background-color:   var(--bs-blue);
 }
 .btn-primary:hover {
   color: #000;

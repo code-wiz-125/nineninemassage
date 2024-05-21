@@ -75,12 +75,12 @@
 }
 
 .btn-primary-outline-0:hover {
-    background: var(--bs-blue) !important;
+    background: var(--bs-lightblue) !important;
     color: var(--bs-white) !important;
 }
 
 .btn-light-outline-0:hover {
-    background: var(--bs-blue) !important;
+    background: var(--bs-lightblue) !important;
     color: var(--bs-white) !important;
 }
 
@@ -92,7 +92,7 @@
 
 .topbar {
     padding: 10px 0;
-    background: var(--bs-primary) !important;
+    background: var(--bs-lightblue) !important;
 }
 
 
