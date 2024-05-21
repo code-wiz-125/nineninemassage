@@ -92,8 +92,9 @@
 
 .topbar {
     padding: 10px 0;
-    background: var(--bs-lightblue) !important;
+    background: var(--bs-primary) !important;
 }
+
 
 /*** Topbar End ***/
 
