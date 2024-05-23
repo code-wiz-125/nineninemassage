@@ -214,7 +214,7 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #ff4f9d;
+  color: var(--glaucous);
   text-decoration: none;
 }
 a:hover {
@@ -2611,7 +2611,7 @@ fieldset:disabled .btn {
 }
 .btn-primary {
   color: #000;
-  background-color:   var(--bs-blue);
+  background-color:   var(--bs-lightblue);
 }
 .btn-primary:hover {
   color: #000;
@@ -6105,7 +6105,7 @@ fieldset:disabled .btn {
   border-left: 0 !important;
 }
 .border-primary {
-  border-color: #ff4f9d !important;
+  border-color: var(--glaucous) !important;
 }
 .border-secondary {
   border-color: #884cd2 !important;
@@ -6847,10 +6847,10 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: #ff4f9d !important;
+  color: var(--bs-primary) !important;
 }
 .text-secondary {
-  color: #884cd2 !important;
+  color: var(--bs-primary) !important;
 }
 .text-success {
   color: #198754 !important;
