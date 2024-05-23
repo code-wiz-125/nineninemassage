@@ -6847,10 +6847,10 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: var(--bs-lightblue) !important;
+  color: var(--bs-primary) !important;
 }
 .text-secondary {
-  color: #884cd2 !important;
+  color: var(--bs-primary) !important;
 }
 .text-success {
   color: #198754 !important;
