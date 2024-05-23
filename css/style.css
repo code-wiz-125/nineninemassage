@@ -71,7 +71,7 @@
 
 .btn-light-outline-0 {
     border: 0;
-    /* color: var(--bs-primary) !important; */
+    color: var(--bs-primary) !important;
 }
 
 .btn-primary-outline-0:hover {
@@ -92,7 +92,7 @@
 
 .topbar {
     padding: 10px 0;
-    background: var(--bs-lightblue) !important;
+    background: #f9f8f6 !important;
 }
 
 
