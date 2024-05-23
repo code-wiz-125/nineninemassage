@@ -214,7 +214,7 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #ff4f9d;
+  color: var(--glaucous);
   text-decoration: none;
 }
 a:hover {
@@ -6105,7 +6105,7 @@ fieldset:disabled .btn {
   border-left: 0 !important;
 }
 .border-primary {
-  border-color: #ff4f9d !important;
+  border-color: var(--glaucous) !important;
 }
 .border-secondary {
   border-color: #884cd2 !important;
@@ -6847,7 +6847,7 @@ fieldset:disabled .btn {
   word-break: break-word !important;
 }
 .text-primary {
-  color: #ff4f9d !important;
+  color: var(--bs-lightblue) !important;
 }
 .text-secondary {
   color: #884cd2 !important;
