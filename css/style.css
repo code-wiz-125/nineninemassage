@@ -233,6 +233,15 @@
 }
 
 /*** Services Start ***/
+.services-bg {
+    background: rgba(0, 0, 0, 0.293);
+    background-image: url(../img/hot-stone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
 .services .services-item {
     transition: 0.5s;
 }
