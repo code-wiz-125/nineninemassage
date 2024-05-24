@@ -140,7 +140,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-info);
+    background: var(--bs-lightblue);
     color: var(--bs-blue);
 }
 
@@ -238,14 +238,14 @@
 }
 
 .services .services-item:hover {
-    background: var(--bs-blue) !important;
+    background: var(--bs-lightblue) !important;
     border-color: var(--bs-secondary) !important;
 }
 
 .services .services-item:hover .services-content p,
 .services .services-item:hover .services-content h3 {
     color: var(--bs-white);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .services .services-item:hover .services-content a.btn {
@@ -378,7 +378,7 @@
     opacity: 1;
 }
 .about-gift:hover {
-    background: blue;
+    background: var(--bs-lightblue);
     transition: 1s;
     border-radius: 50%;
     
