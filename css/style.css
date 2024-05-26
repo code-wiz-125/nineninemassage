@@ -71,11 +71,11 @@
 
 .btn-light-outline-0 {
     border: 0;
-    color: var(--bs-primary) !important;
+    color: var(--bs-blue) !important;
 }
 
 .btn-primary-outline-0:hover {
-    background: var(--bs-lightblue) !important;
+    background: var(--bs-blue) !important;
     color: var(--bs-white) !important;
 }
 
@@ -106,14 +106,14 @@
 }
 .title-text {
     font-size: 20px;
-    color:lightblue;
+    color: var(--bs-gray-dark);
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link:hover,
 .sticky-top.bg-white .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-lightblue);
+    color: var(--bs-blue);
 }
 
 .navbar .dropdown-toggle::after {
