@@ -247,7 +247,7 @@
 }
 
 .services .services-item:hover {
-    background: var(--bs-lightblue) !important;
+    background: var(--light-blue) !important;
     border-color: var(--bs-secondary) !important;
 }
 
@@ -514,9 +514,9 @@
 
 
 /*** Pricing Start ***/
-.pricing {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/appointment-background.jpg);
-    background-position: center center;
+.pricing-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.179), rgba(0, 0, 0, 0.5)), url(../img/pricing-header.jpg);
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -656,8 +656,8 @@
 /*** testimonial end ***/
 
 /*** Contact Start ***/
-.contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/appointment-background.jpg);
+.contact-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.211), rgba(0, 0, 0, 0.5)), url(../img/contact-header.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -699,3 +699,10 @@
     background: var(--bs-dark) !important;
 }
 /*** copyright end ***/
+
+
+@media screen and (min-width: 768px) {
+    .header-text {
+        padding: 150px;
+    }
+}
