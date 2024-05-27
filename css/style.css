@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* 100-900 */
+    font-style: normal;
+    font-size: 15px;
+}
+
+
 
 /*** Spinner Start ***/
 #spinner {
@@ -107,6 +118,10 @@
 .title-text {
     font-size: 20px;
     color: var(--bs-gray-dark);
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
 }
 
 .navbar .navbar-nav .nav-link:hover,
